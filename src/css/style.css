@@ -121,10 +121,14 @@ h1 {
   text-align: center;
 }
 
+.box-1 img {
+  height: 350px;
+}
+
 .box-2 {
   width: 400px;
   height: 380px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .box-2 span {
@@ -143,23 +147,41 @@ h1 {
 /* ////// */
 
 .cont-2-reverse {
-  background-color: rgb(194, 191, 191);
+  background-color: rgb(226, 223, 223);
   height: 500px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .box-1-reverse {
-  background-color:pink;
   width: 400px;
   height: 380px;
+  padding-top: 80px;
 }
 
-.box-2-reverse {
-  background-color: rgb(0, 180, 240);
+.box-1-reverse span {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.box-1-reverse p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.box-2-reverse { 
   width: 800px;
   height: 380px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 50px;
+}
+
+.box-2-reverse img {
+  height: 350px;
 }
 
 .cont-bg-grey {
