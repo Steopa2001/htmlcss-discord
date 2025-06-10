@@ -273,14 +273,14 @@ h1 {
 
 
 .box-foot {
-  max-width: 800px;
+  max-width: 480px;
   background-color: rgb(25, 223, 206);
   height: 460px;
 }
 
 
 .box-foot-2 {
-  width: 480px;
+  max-width: 480px;
   background-color: rgb(252, 127, 148);
   height: 460px;
 }
@@ -289,3 +289,12 @@ h1 {
   line-height: 1.5;
 }
 
+.box-foot-2 img {
+  width: 20px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.color {
+  color: white;
+}
