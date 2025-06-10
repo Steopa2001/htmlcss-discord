@@ -142,12 +142,11 @@ h1 {
 
 .cont-2-reverse {
   background-color: rgb(226, 223, 223);
-  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .box-1-reverse {
@@ -266,27 +265,31 @@ h1 {
   background-color: rgb(49, 48, 48);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   flex-direction: row-reverse;
-  padding-top: 100px;
+  padding-top: 80px;
+  gap: 100px;
 }
 
 
 .box-foot {
   max-width: 480px;
-  background-color: rgb(25, 223, 206);
-  height: 460px;
 }
 
 
 .box-foot-2 {
   max-width: 480px;
-  background-color: rgb(252, 127, 148);
-  height: 460px;
+}
+
+.box-foot-2 h3 {
+  color: #7488D8;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
  .foot-cont p {
   line-height: 1.5;
+  color: white;
 }
 
 .box-foot-2 img {
@@ -295,6 +298,22 @@ h1 {
   vertical-align: middle;
 }
 
+.fa-solid {
+  cursor: pointer;
+}
+
 .color {
   color: white;
 }
+
+.color-2 {
+  color: #7488D8;
+  font-weight: bold;
+}
+
+.icon {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
