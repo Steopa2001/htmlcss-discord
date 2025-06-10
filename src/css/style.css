@@ -258,20 +258,26 @@ h1 {
 
 /* FOOTER */
 
+.border {
+  border: 1px solid black;
+}
+
 .foot-cont {
   background-color: rgb(49, 48, 48);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
-  padding-bottom: 30px;
+  padding-top: 100px;
 }
 
+
 .box-foot {
-  width: 180px;
+  max-width: 800px;
   background-color: rgb(25, 223, 206);
   height: 460px;
 }
+
 
 .box-foot-2 {
   width: 480px;
@@ -279,37 +285,7 @@ h1 {
   height: 460px;
 }
 
-.box-footer {
-  background-color: rgb(49, 48, 48);
-  display: flex;
-  height: 80px;
-  justify-content: center;
-  align-items: flex-end;
-  margin-top: 2px;
+ .foot-cont p {
+  line-height: 1.5;
 }
 
-.last-box {
-  height: 60px;
-  background-color: aquamarine;
-  width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.botton-1 {
-  width: auto;
-  padding: 5px;
-  background-color: pink;
-}
-
-.botton-2 {
-  width: auto;
-  padding: 5px;
-  background-color: pink;
-}
-
-.box-footer,
-.last-box {
-  margin-bottom: 2px;
-}
