@@ -218,7 +218,7 @@ h1 {
 
 
 .cont-bg-grey {
-  background-color: rgb(194, 191, 191);
+  background-color: rgb(226, 223, 223);
   display: flex;
   height: 1280px;
   max-width: auto;
@@ -230,7 +230,14 @@ h1 {
   background-color: green;
   width: 1200px;
   height: 1200px;
+  text-align: center;
 }
+
+.container-2 h1 {
+  margin-top: 30px;
+}
+
+
 
 /* FOOTER */
 
