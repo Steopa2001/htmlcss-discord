@@ -61,6 +61,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 170px;
 }
 
 .box-container {
@@ -70,19 +71,20 @@ header {
 
 .box-container span {
   color: white;
-  font-size: 20px;
+  font-size: 20px; 
 }
 
 h1 {
   font-size: 50px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 10px;
+  padding-top: 90px;
 }
 
 /* bottoni per il tuo posto per parlare */
+
 .bot-2 {
-  padding: 15px;
+  padding: 15px 30px;
   border-radius: 20px;
   border: none;
   margin-top: 20px;
@@ -90,7 +92,7 @@ h1 {
 }
 
 .bot-3 {
-  padding: 15px;
+  padding: 15px 30px;
   border-radius: 20px;
   border: none;
   margin-top: 20px;
@@ -106,6 +108,8 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .box-1 {
@@ -141,7 +145,9 @@ h1 {
   height: 500px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .box-1-reverse {
@@ -176,11 +182,14 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .box-5 {  
   max-width: 800px;
   text-align: center;
+  padding-right: 50px;
 }
 
 .box-5 img{
@@ -212,6 +221,7 @@ h1 {
   max-width: auto;
   justify-content: center;
   align-items: center;
+  padding-bottom: 100px;
 }
 
 .container-2 {
@@ -251,7 +261,6 @@ h1 {
 .foot-cont {
   background-color: rgb(49, 48, 48);
   display: flex;
-  height: 500px;
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
