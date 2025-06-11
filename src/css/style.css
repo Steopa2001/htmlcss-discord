@@ -39,6 +39,12 @@ header {
 .col-60 {
   width: 60%;
   color: white;
+   display: flex;
+  justify-content: space-evenly;
+}
+
+.col-60 span {
+   cursor: pointer;
 }
 
 .left {
