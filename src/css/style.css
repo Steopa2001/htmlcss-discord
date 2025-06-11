@@ -224,7 +224,7 @@ h1 {
 .cont-bg-grey {
   background-color: rgb(226, 223, 223);
   display: flex;
-  max-width: auto;
+  max-width: 1900px;
   justify-content: center;
   align-items: center;
   padding-bottom: 100px;
@@ -323,7 +323,7 @@ h1 {
 }
 
 .final-foot {
-  max-width: auto;
+  max-width: 1900px;
   background-color: rgb(49, 48, 48);
   height: 200px;
   display: flex;
